@@ -3,6 +3,7 @@ botocore
 earthaccess
 folium
 geopandas
+ipyleaflet
 jinja2
 matplotlib
 mapclassify
