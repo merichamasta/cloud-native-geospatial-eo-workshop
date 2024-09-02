@@ -2,7 +2,9 @@ bokeh
 botocore
 earthaccess
 folium
+eo_insights[notebooks] @ git+https://github.com/frontiersi/eo-insights.git@develop
 geopandas
+ipyleaflet
 jinja2
 matplotlib
 mapclassify
