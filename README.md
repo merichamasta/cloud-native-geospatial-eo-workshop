@@ -54,6 +54,11 @@ and advice from members of the [GEO Land Degradation Neutrality Flagship](https:
 
 ## Further resources
 
+### Digital Earth Australia's Sentinel-2 prodcut
+
+* [Product overview](https://knowledge.dea.ga.gov.au/notebooks/DEA_products/DEA_Sentinel2_Surface_Reflectance/)
+* STAC catalog URL: [https://explorer.dea.ga.gov.au/stac](https://explorer.dea.ga.gov.au/stac)
+
 ### NASA's Harmonized Landsat Sentinel-2 product
 
 * [Product overvivew](https://hls.gsfc.nasa.gov/)
