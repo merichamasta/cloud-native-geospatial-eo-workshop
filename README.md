@@ -3,22 +3,28 @@
 This repository contains workshop materials to that introduce
 cloud native methods of working with Earth observation data products.
 
-The repository focusses on the use case of measuring land productivity
+There are two activities, each with an annotated notebook:
+
+- Activity 1: Find, Load, Visualise
+- Activity 2: Cloud Native Land Productivity for SDG 15
+
+Activity 1 demonstrates how to query the Digital Earth Australia STAC 
+catalog and produce a visually appealing image for a location in Australia. 
+
+Activity 2 demonstrates how to measure land productivity
 as a subindicator of Sustainable Development Goal indicator 15.3.1:
-Proportion of land that is degraded over total land area. For more infromation
+Proportion of land that is degraded over total land area. For more information
 please see the
 [Satellite Data Requirements for SDGIndicator 15.3.1](https://ceos.org/sdg/files/supportsheets/SDG_15.3.1_EO_Satellite_Data_Requirements_31Aug2022.pdf)
 document.
-
-The selected application area is a forested region in Capão Bonito, 
-a municipality in the state of São Paulo in Brazil. 
+The use case covers an area of agriculture and forest on the Ba River in Fiji. 
 
 ## Quickstart
 
 ### Tutorial PDF
 
-Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1z_DO1xEDNmEwLTfk7HyhBe_z9ZzRGX1p/view?usp=sharing).
-This was used to run the tutorial at SatSummit 2024.
+Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1phRVjQPga80dylDcYZvL0UqGnWyIxENA/view?usp=sharing).
+This was used to run the tutorial at the 2024 AEO Forum.
 
 ### Start the Codespace
 
@@ -40,17 +46,21 @@ The notebook uses the [`earthaccess`](https://github.com/nsidc/earthaccess) libr
 
 `earthaccess.login()` prompts you for your Earthdata username and password. Once authenticated, you will have access to credentials for both HTTP and S3 access to Earthdata collections.
 
-### Run the demonstration notebook
+### Run the demonstration notebooks
+
+Open the `Find_Load_Visualise.ipynb`
+notebook and work through the cells.
 
 Open the `Cloud_Native_Land_Productivity_For_SDG15.ipynb`
 notebook and work through the cells.
 
 ## Authorship and sponsorship
 
-This notebook was written by Alex Leith and Caitlin Adams, with
+These notebooks were written by Alex Leith and Caitlin Adams, with
 financial support from the
 [Committee on Earth Observation Satellites](https://ceos.org/)
 and advice from members of the [GEO Land Degradation Neutrality Flagship](https://geo-ldn.org/).
+The notebooks were reviewed by Lavender Liu and Matthew Ellis.
 
 ## Further resources
 
